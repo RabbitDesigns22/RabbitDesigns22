@@ -1,4 +1,4 @@
-<h1 align="center">Hola, soy Eduardo 🐇</h1>
+<h1 align="center">Hola, soy Eduardo </h1>
 
 <p align="center">
   <b>Venezolano en México. Dirijo <a href="https://rabbit-designs.com">Rabbit Designs</a> con un equipo de agentes de Claude.</b><br>
