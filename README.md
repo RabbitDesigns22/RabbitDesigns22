@@ -27,35 +27,29 @@ Yo casi solo hablo con el supervisor, y él les pasa el trabajo a los demás.
 
 ## Skills que comparto
 
-Con tantos chats juntos me topé con dos problemas: gastaban tokens rehaciendo trabajo y se equivocaban de fecha. Para cada uno hice una skill, y aquí las dejo abiertas para que las uses en tu Claude Code.
+Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciendo trabajo, se equivocaban de fecha, me mandaban a hacer cosas que ellos podían hacer, me daban reportes viejos y no sabían lo que hacía el chat de al lado. Para cada problema hice una skill y aquí las dejo abiertas para tu Claude Code. Todas son solo instrucciones (salvo hora-exacta, que trae un script corto), en inglés y en español, con licencia MIT.
 
-### [one-pass](https://github.com/RabbitDesigns22/one-pass): bien a la primera
-
-Lo que más tokens gasta un agente no es hablar de más. Es rehacer: entrega, se lo regresas, lo vuelve a hacer, relee los mismos archivos, repite el mismo comando que ya falló. one-pass le cambia la forma de trabajar:
-
-- Antes de empezar, escribe en 5 líneas qué tiene que cumplir el resultado para que lo aceptes a la primera, y antes de decir "listo" lo revisa contra esa lista.
-- Lee cada archivo una sola vez y apunta lo que sacó. No vuelve a abrir lo que acaba de escribir.
-- Si el mismo intento falla dos veces, para, busca la causa y cambia de camino. No hay tercer intento a ciegas.
-- Cuando le pasa trabajo a otro agente, le manda todo en un solo mensaje: rutas, qué evitar y cómo se ve terminado.
-- Nunca se salta pruebas, confirmaciones ni revisiones para ahorrar.
-
-Son puras instrucciones, sin scripts. No se conecta a internet ni pide permisos.
-
-### [hora-exacta](https://github.com/RabbitDesigns22/hora-exacta): que no se pierda en el tiempo
-
-Claude no tiene reloj. Si adivina la fecha, programa una publicación el día que no era o escribe "mañana" cuando ya pasó. Con esta skill, cada mensaje que le mandas le llega con:
-
-- la fecha y la hora reales en CDMX, Lima, Costa Rica, Caracas y Florida (Florida ya con su cambio de horario);
-- la semana en curso, de lunes a domingo;
-- la ciudad aproximada según tu IP y el huso horario de tu computadora, por si viajas.
-
-Es un script de Python sin paquetes extra. Consulta la IP como mucho cada 6 horas, y con `--sin-ip` no se conecta a nada.
+| Skill | El problema que resuelve |
+|---|---|
+| [one-pass](https://github.com/RabbitDesigns22/one-pass) | Bien a la primera: deja de gastar tokens rehaciendo, releyendo y reintentando a ciegas |
+| [hora-exacta](https://github.com/RabbitDesigns22/hora-exacta) | Cada mensaje llega con la fecha y la hora reales; no programa nada en el día equivocado |
+| [hands-on](https://github.com/RabbitDesigns22/hands-on) | El agente hace él todo lo que puede y solo te pide lo que de verdad no puede (códigos, claves, pagos) |
+| [easy-for-them](https://github.com/RabbitDesigns22/easy-for-them) | Cuando una persona tiene que hacer algo: enlace directo, una acción por línea, mensaje listo para reenviar |
+| [one-answer](https://github.com/RabbitDesigns22/one-answer) | Una sola respuesta ya pensada, en vez de plan, corrección y otro plan |
+| [never-twice](https://github.com/RabbitDesigns22/never-twice) | Un registro de errores compartido para que el mismo error no pase dos veces |
+| [report-now](https://github.com/RabbitDesigns22/report-now) | Si pides un reporte, lo revisa en vivo en ese momento y le pone la hora; nunca uno viejo |
+| [sort-me-out](https://github.com/RabbitDesigns22/sort-me-out) | "Ordéname": una lista de lo pendiente, lo bloqueado y lo que se te olvidó |
+| [in-the-loop](https://github.com/RabbitDesigns22/in-the-loop) | Varios chats, un tablero en vivo: todos saben qué cambió sin meterse en el trabajo del otro |
+| [small-budget-ads](https://github.com/RabbitDesigns22/small-budget-ads) | Reglas para decidir qué anuncio de Meta apagar cuando el presupuesto es chico (1 a 5 dólares al día) |
 
 ### Instalar
 
+Cada una se instala con una línea. Por ejemplo:
+
 ```bash
 npx skills add RabbitDesigns22/one-pass -g -y
-npx skills add RabbitDesigns22/hora-exacta -g -y
+npx skills add RabbitDesigns22/hands-on -g -y
+npx skills add RabbitDesigns22/report-now -g -y
 ```
 
 hora-exacta pide un paso más: pegar un hook en tu `settings.json` para que la hora llegue sola. En [su página](https://github.com/RabbitDesigns22/hora-exacta#instalar-2-pasos) está cómo hacerlo, en Mac, Linux y Windows.
