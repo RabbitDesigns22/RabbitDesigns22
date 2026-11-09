@@ -27,7 +27,7 @@ Yo casi solo hablo con el supervisor, y él les pasa el trabajo a los demás.
 
 ## Skills que comparto
 
-Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciendo trabajo, se equivocaban de fecha, me mandaban a hacer cosas que ellos podían hacer, me daban reportes viejos y no sabían lo que hacía el chat de al lado. Para cada problema hice una skill y aquí las dejo abiertas para tu Claude Code. Todas son solo instrucciones (salvo hora-exacta, que trae un script corto), en inglés y en español, con licencia MIT.
+Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciendo trabajo, se equivocaban de fecha, me mandaban a hacer cosas que ellos podían hacer, me daban reportes viejos y no sabían lo que hacía el chat de al lado. Para cada problema hice una skill y aquí las dejo abiertas para tu Claude Code. Casi todas son solo instrucciones (hora-exacta, skill-harvest y session-watchdog traen scripts cortos de Python), en inglés y en español, con licencia MIT.
 
 | Skill | El problema que resuelve |
 |---|---|
@@ -41,6 +41,10 @@ Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciend
 | [sort-me-out](https://github.com/RabbitDesigns22/sort-me-out) | "Ordéname": una lista de lo pendiente, lo bloqueado y lo que se te olvidó |
 | [in-the-loop](https://github.com/RabbitDesigns22/in-the-loop) | Varios chats, un tablero en vivo: todos saben qué cambió sin meterse en el trabajo del otro |
 | [small-budget-ads](https://github.com/RabbitDesigns22/small-budget-ads) | Reglas para decidir qué anuncio de Meta apagar cuando el presupuesto es chico (1 a 5 dólares al día) |
+| [study-first](https://github.com/RabbitDesigns22/study-first) | Que estudie a fondo lo que pediste y lea completo antes de responder: punto por punto, sin inventar detalles |
+| [session-watchdog](https://github.com/RabbitDesigns22/session-watchdog) | Despierta solo a los chats que se quedaron pegados a medias; a los que terminaron no los toca |
+| [skill-harvest](https://github.com/RabbitDesigns22/skill-harvest) | Lee todos tus chats y encuentra las skills que te faltan o que tus chats olvidan cargar |
+| [whatsapp-number-onboarding](https://github.com/RabbitDesigns22/whatsapp-number-onboarding) | Conecta el WhatsApp de un cliente a la API de Meta en el orden seguro, con los códigos de error reales |
 
 ### Instalar
 
