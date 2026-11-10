@@ -48,6 +48,7 @@ Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciend
 | [published-vs-planned](https://github.com/RabbitDesigns22/published-vs-planned) | Solo dice "publicado" de lo que vio en vivo en la página pública; Facebook e Instagram por separado |
 | [source-every-fact](https://github.com/RabbitDesigns22/source-every-fact) | Cada precio, teléfono y nombre de un post sale de su fuente; nada inventado |
 | [only-what-was-asked](https://github.com/RabbitDesigns22/only-what-was-asked) | "Solo pausa Google Ads" pausa solo Google Ads, y comprueba que nada más se movió |
+| [model-per-chat](https://github.com/RabbitDesigns22/model-per-chat) | el modelo justo para cada chat: el más fuerte donde un error cuesta dinero, barato o ninguno donde solo corre seguido |
 
 ### Instalar
 
