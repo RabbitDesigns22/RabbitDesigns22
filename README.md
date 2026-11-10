@@ -45,6 +45,8 @@ Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciend
 | [session-watchdog](https://github.com/RabbitDesigns22/session-watchdog) | Despierta solo a los chats que se quedaron pegados a medias; a los que terminaron no los toca |
 | [skill-harvest](https://github.com/RabbitDesigns22/skill-harvest) | Lee todos tus chats y encuentra las skills que te faltan o que tus chats olvidan cargar |
 | [whatsapp-number-onboarding](https://github.com/RabbitDesigns22/whatsapp-number-onboarding) | Conecta el WhatsApp de un cliente a la API de Meta en el orden seguro, con los códigos de error reales |
+| [published-vs-planned](https://github.com/RabbitDesigns22/published-vs-planned) | Solo dice "publicado" de lo que vio en vivo en la página pública; Facebook e Instagram por separado |
+| [source-every-fact](https://github.com/RabbitDesigns22/source-every-fact) | Cada precio, teléfono y nombre de un post sale de su fuente; nada inventado |
 
 ### Instalar
 
