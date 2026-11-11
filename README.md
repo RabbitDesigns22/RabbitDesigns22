@@ -27,6 +27,8 @@ Yo casi solo hablo con el supervisor, y él les pasa el trabajo a los demás.
 
 ## Skills que comparto
 
+**Todas juntas en un solo repo: [claude-skills](https://github.com/RabbitDesigns22/claude-skills)** · `npx skills add RabbitDesigns22/claude-skills`
+
 Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciendo trabajo, se equivocaban de fecha, me mandaban a hacer cosas que ellos podían hacer, me daban reportes viejos y no sabían lo que hacía el chat de al lado. Para cada problema hice una skill y aquí las dejo abiertas para tu Claude Code. Casi todas son solo instrucciones (hora-exacta, skill-harvest y session-watchdog traen scripts cortos de Python), en inglés y en español, con licencia MIT.
 
 | Skill | El problema que resuelve |
