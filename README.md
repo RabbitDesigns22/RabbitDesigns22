@@ -33,6 +33,9 @@ Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciend
 
 | Skill | El problema que resuelve |
 |---|---|
+| [do-it-now](https://github.com/RabbitDesigns22/do-it-now) | Le das una orden y la empieza en ese mismo turno: nada de "queda anotado para el lunes" |
+| [build-on-what-worked](https://github.com/RabbitDesigns22/build-on-what-worked) | Parte de lo que ya te funcionó, cumple cada punto, lo supera en uno y te muestra la comparación; nada entregado al 50% |
+| [google-ads-one-change](https://github.com/RabbitDesigns22/google-ads-one-change) | Mejora una campaña chica de Google Ads: primero revisa la medición y luego hace un solo cambio, con tu sí, y lo mide |
 | [one-pass](https://github.com/RabbitDesigns22/one-pass) | Bien a la primera: deja de gastar tokens rehaciendo, releyendo y reintentando a ciegas |
 | [hora-exacta](https://github.com/RabbitDesigns22/hora-exacta) | Cada mensaje llega con la fecha y la hora reales; no programa nada en el día equivocado |
 | [hands-on](https://github.com/RabbitDesigns22/hands-on) | El agente hace él todo lo que puede y solo te pide lo que de verdad no puede (códigos, claves, pagos) |
@@ -53,6 +56,9 @@ Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciend
 | [model-per-chat](https://github.com/RabbitDesigns22/model-per-chat) | el modelo justo para cada chat: el más fuerte donde un error cuesta dinero, barato o ninguno donde solo corre seguido |
 | [music-by-niche](https://github.com/RabbitDesigns22/music-by-niche) | música que va con el negocio del cliente, sin repetir en el cliente ni entre clientes en 3 semanas |
 | [full-power](https://github.com/RabbitDesigns22/full-power) | lo mejor que puede dar el modelo en trabajo importante: el más fuerte solo en el paso difícil, varios intentos con juez y revisor con ojos frescos |
+| [whatsapp-closer](https://github.com/RabbitDesigns22/whatsapp-closer) | Reglas comprobadas para que una asistente de WhatsApp cierre ventas sin dejar de caer bien |
+| [proposal-pdf](https://github.com/RabbitDesigns22/proposal-pdf) | Propuestas en PDF que convencen sin presionar, con cada precio comprobado |
+| [reel-effects-hyperframes](https://github.com/RabbitDesigns22/reel-effects-hyperframes) | "Hazme el efecto de ese reel": el bloque real de HyperFrames, o te dice que no existe |
 
 ### Instalar
 
