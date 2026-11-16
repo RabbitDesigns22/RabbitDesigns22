@@ -27,7 +27,7 @@ Yo casi solo hablo con el supervisor, y él les pasa el trabajo a los demás.
 
 ## Skills que comparto
 
-**Todas juntas en un solo repo: [claude-skills](https://github.com/RabbitDesigns22/claude-skills)** · `npx skills@1.8.1 add https://github.com/RabbitDesigns22/claude-skills/tree/0d84ae59bd70b2a33a18e2f2ff94fec0487285cf`
+**Todas juntas en un solo repo: [claude-skills](https://github.com/RabbitDesigns22/claude-skills)** · `npx skills@1.8.1 add https://github.com/RabbitDesigns22/claude-skills/tree/07ab3e561f4cf8ccb828d12951c87f56d9a41636`
 
 Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciendo trabajo, se equivocaban de fecha, me mandaban a hacer cosas que ellos podían hacer, me daban reportes viejos y no sabían lo que hacía el chat de al lado. Para cada problema hice una skill y aquí las dejo abiertas para tu Claude Code. Casi todas son solo instrucciones (hora-exacta, skill-harvest y session-watchdog traen scripts cortos de Python), en inglés y en español, con licencia MIT.
 
@@ -39,6 +39,8 @@ Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciend
 | [one-pass](https://github.com/RabbitDesigns22/one-pass) | Bien a la primera: deja de gastar tokens rehaciendo, releyendo y reintentando a ciegas |
 | [hora-exacta](https://github.com/RabbitDesigns22/hora-exacta) | Cada mensaje llega con la fecha y la hora reales; no programa nada en el día equivocado |
 | [hands-on](https://github.com/RabbitDesigns22/hands-on) | El agente hace él todo lo que puede y solo te pide lo que de verdad no puede (códigos, claves, pagos) |
+| [no-obvious-questions](https://github.com/RabbitDesigns22/no-obvious-questions) | El agente deja de preguntarte lo que ya sabe o puede buscar; lo que sí, una vez y con su recomendación |
+| [captcha-handoff](https://github.com/RabbitDesigns22/captcha-handoff) | Tú le das a "no soy un robot" y el agente sigue solo, sin que le escribas "listo" |
 | [easy-for-them](https://github.com/RabbitDesigns22/easy-for-them) | Cuando una persona tiene que hacer algo: enlace directo, una acción por línea, mensaje listo para reenviar |
 | [one-answer](https://github.com/RabbitDesigns22/one-answer) | Una sola respuesta ya pensada, en vez de plan, corrección y otro plan |
 | [never-twice](https://github.com/RabbitDesigns22/never-twice) | Un registro de errores compartido para que el mismo error no pase dos veces |
