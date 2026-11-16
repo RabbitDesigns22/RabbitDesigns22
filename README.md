@@ -27,7 +27,7 @@ Yo casi solo hablo con el supervisor, y él les pasa el trabajo a los demás.
 
 ## Skills que comparto
 
-**Todas juntas en un solo repo: [claude-skills](https://github.com/RabbitDesigns22/claude-skills)** · `npx skills add RabbitDesigns22/claude-skills`
+**Todas juntas en un solo repo: [claude-skills](https://github.com/RabbitDesigns22/claude-skills)** · `npx skills@1.8.1 add https://github.com/RabbitDesigns22/claude-skills/tree/0d84ae59bd70b2a33a18e2f2ff94fec0487285cf`
 
 Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciendo trabajo, se equivocaban de fecha, me mandaban a hacer cosas que ellos podían hacer, me daban reportes viejos y no sabían lo que hacía el chat de al lado. Para cada problema hice una skill y aquí las dejo abiertas para tu Claude Code. Casi todas son solo instrucciones (hora-exacta, skill-harvest y session-watchdog traen scripts cortos de Python), en inglés y en español, con licencia MIT.
 
@@ -65,9 +65,9 @@ Con tantos chats juntos me topé con problemas reales: gastaban tokens rehaciend
 Cada una se instala con una línea. Por ejemplo:
 
 ```bash
-npx skills add RabbitDesigns22/one-pass -g -y
-npx skills add RabbitDesigns22/hands-on -g -y
-npx skills add RabbitDesigns22/report-now -g -y
+npx skills@1.8.1 add https://github.com/RabbitDesigns22/one-pass/tree/d6926dcb72618daa5016f6ab2c9a7b3a8e848ad6 -g -y
+npx skills@1.8.1 add https://github.com/RabbitDesigns22/hands-on/tree/b7286f074fe8c159392ac918a25de6b29af1d678 -g -y
+npx skills@1.8.1 add https://github.com/RabbitDesigns22/report-now/tree/9ab49551ea7de3b65d207b0b6da8906374da5146 -g -y
 ```
 
 hora-exacta pide un paso más: pegar un hook en tu `settings.json` para que la hora llegue sola. En [su página](https://github.com/RabbitDesigns22/hora-exacta#instalar-2-pasos) está cómo hacerlo, en Mac, Linux y Windows.
